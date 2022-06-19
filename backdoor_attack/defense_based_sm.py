@@ -32,7 +32,7 @@ class PurifyingBackdoor:
     def defense(self, epochs, regular_way, purifying_strategy):
 
         self.init_()
-        optim = torch.optim.SGD(self.model.parameters(), lr = 0.01, momentum = 0.9, weight_decay = 1e-4)
+        optim = torch.optim.SGD(self.model.parameters(), lr = 0.01)
         loss_func = torch.nn.CrossEntropyLoss()
 
         # warm-start
