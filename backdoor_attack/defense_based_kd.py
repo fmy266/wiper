@@ -1,6 +1,5 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
-# author：fmy
 import copy
 import torch
 import torch.nn.functional as F
