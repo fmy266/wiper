@@ -1,6 +1,5 @@
 #!/usr/bin/env python 
 # -*- coding:utf-8 -*-
-# author：fmy
 import torch
 import torch.nn.functional as F
 import torch.optim as optim
